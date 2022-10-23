@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Registration</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: white;
+        }
+
+        .parent{
+            border: 3px solid rgb(155, 145, 145);
+            margin-left: auto;
+            margin-right: auto;
+            padding: 3px;
+            padding-top: 0%;
+            align-items: center;
+            width: 3in;
+            height: 150%;
+        }
+
+        .child{
+            padding: 6px;
+            margin: 2px;
+        }
+        label{
+            font-weight: bold;
+        }
+    </style>
+    <center>
+        <img src="./LOGO.png">
+     </center>
+
+    <form>
+        <div class="parent">
+           
+            <div class="child" style="padding-top:0%;">
+                <div>
+                    <h1>Create Account</h1>
+                </div>
+                <label style="font-weight: bold;">Your Name</label><br>
+                <input style="width: 2.8in; height: 20px;" placeholder="First and Last Name" type="text" required>
+                           
+            </div>
+
+            <div class="child">
+                <label>Mobile Number</label><br>
+                <input style="width:2.8in; height: 20px;" placeholder="Mobile Number" type="tel" required>
+                
+            </div>
+            <div class="child">
+                <label>E-mail Id</label><br>
+                <input style="width: 2.8in; height: 20px;" type="email" required>
+            </div>
+            <div class="child">
+                <label>Password</label><br>
+                <input style="width:2.8in"; placeholder="At least 6 Characters" type="password" required>
+                <span style="color:ash;" > !Password must be at least 6 characters.</span>
+                <p>By enrollig your mobile phone number, you consent to receive authomated security notifications via text message from Amazon. Messagea and data rates may apply.</p>
+            </div>
+            <div>
+                <center>
+                    <a href="registered.html">
+                        <input style="width:2.8in; height: 20px; text-align:center; background-color: rgba(238, 181, 75,0.979); type="button" value="Sign-In">
+
+                    </a>
+                </center>
+            </div>
+            <br>
+            <hr style="width: 8px;">
+            <div>
+                <p style="text-align:center">
+                    "Already Have an account?"
+                    <a href="login.html">Log in</a>
+                    </p>
+
+            </div>
+
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
